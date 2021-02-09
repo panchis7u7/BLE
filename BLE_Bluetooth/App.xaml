@@ -1,0 +1,22 @@
+﻿<Application
+    x:Class="BLE_Bluetooth.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BLE_Bluetooth">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Default">
+                    <AcrylicBrush x:Key="Acrilico1" TintOpacity=".1" TintColor="Transparent" BackgroundSource="HostBackdrop" FallbackColor="White" AlwaysUseFallback="False"></AcrylicBrush>
+                    <AcrylicBrush x:Key="NavigationViewDefaultPaneBackground"
+                        BackgroundSource="Backdrop" TintColor="Transparent" TintOpacity=".2"/>
+                    <AcrylicBrush x:Key="NavigationViewTopPaneBackground"
+                        BackgroundSource="Backdrop" TintColor="Transparent" TintOpacity=".2"/>
+                    <AcrylicBrush x:Key="NavigationViewExpandedPaneBackground"
+                        BackgroundSource="HostBackdrop" TintColor="Transparent" TintOpacity=".2"/>
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
